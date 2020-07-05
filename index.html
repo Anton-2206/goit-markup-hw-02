@@ -4,24 +4,42 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>ВэбСтудия</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./css/normalize.css" />
+    <link rel="stylesheet" href="./css/styles.css" />
   </head>
 
   <body>
     <!--ШАПКА САЙТА-->
-    <header>
-      <nav>
-        <a href="./index.html">Web Studio</a>
-        <ul>
-          <li><a href="./index.html">Студия</a></li>
-          <li><a href="./portfolio.html">Портфолио</a></li>
-          <li><a href="./index.html">Контакты</a></li>
+    <header class="header">
+      <nav class="navigation">
+        <a class="logo link" href="./index.html">Web Studio</a>
+        <ul class="navigation-list">
+          <li class="navigation-list-item">
+            <a class="navigation-list-link link" href="./index.html">Студия</a>
+          </li>
+          <li class="navigation-list-item">
+            <a class="navigation-list-link link" href="./portfolio.html"
+              >Портфолио</a
+            >
+          </li>
+          <li class="navigation-list-item">
+            <a class="navigation-list-link link" href="./index.html"
+              >Контакты</a
+            >
+          </li>
         </ul>
       </nav>
-      <address>
-        <a href="tel:+380961111111">+38 096 111 11 11</a>
+      <address class="header-adress">
+        <a class="header-tel link" href="tel:+380961111111"
+          >+38 096 111 11 11</a
+        >
       </address>
 
-      <button>info@devstudio.com</button>
+      <a class="header-mail link" href="">info@devstudio.com</a>
     </header>
     <main>
       <!--Хироу секция-->
@@ -113,19 +131,19 @@
             <h3>Николай Кучеренко</h3>
             <p>Product Designer</p>
 
-            <a href="">
+            <a aria-label="инстаграмм ссылка" href="">
               <img src="./images/social-apps/Ellipse11.svg" alt="инстаграм"
             /></a>
 
-            <a href=""
+            <a aria-label="твиттер ссылка" href=""
               ><img src="./images/social-apps/Ellipse(1).svg" alt="твитер"
             /></a>
 
-            <a href=""
+            <a aria-label="фейсбук ссылка" href=""
               ><img src="./images/social-apps/Ellipse(2).svg" alt="фуйсбук"
             /></a>
 
-            <a href=""
+            <a aria-label="линкендин ссылка" href=""
               ><img src="./images/social-apps/Ellipse(3).svg" alt="линкэдин"
             /></a>
           </li>
@@ -255,3 +273,7 @@
     </footer>
   </body>
 </html>
+<!--
+Roboto 400, 500, 700, 900
+Raleway 700
+-->
