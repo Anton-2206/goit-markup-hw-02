@@ -4,120 +4,146 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>ВэбСтудия</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./css/normalize.css" />
+    <link rel="stylesheet" href="./css/styles.css" />
   </head>
-
   <body>
     <!--ШАПКА САЙТА-->
-    <header>
-      <nav>
-        <a href="./index.html">Web Studio</a>
-        <ul>
-          <li><a href="./index.html">Студия</a></li>
-          <li><a href="./index.html">Портфолио</a></li>
-          <li><a href="./index.html">Контакты</a></li>
+    <header class="header">
+      <nav class="navigation">
+        <a class="header-logo link" href="./index.html"
+          ><span class="header-logo-web">Web</span>Studio</a
+        >
+        <ul class="navigation-list">
+          <li class="navigation-list-item">
+            <a class="navigation-list-link link" href="./index.html">Студия</a>
+          </li>
+          <li class="navigation-list-item">
+            <a class="navigation-list-link link" href="./portfolio.html"
+              >Портфолио</a
+            >
+          </li>
+          <li class="navigation-list-item">
+            <a class="navigation-list-link link" href="./index.html"
+              >Контакты</a
+            >
+          </li>
         </ul>
       </nav>
-      <address>
-        <a href="tel:+380961111111">+38 096 111 11 11</a>
+      <address class="header-adress">
+        <a class="header-tel link" href="tel:+380961111111"
+          >+38 096 111 11 11</a
+        >
       </address>
 
-      <a href="">info@devstudio.com</a>
+      <a class="header-mail link" href="">info@devstudio.com</a>
     </header>
     <main>
       <h1 hidden>Галерея работ</h1>
-      <section>
+      <section class="filter">
         <ul class="filter-list">
-          <li class="filter-list-btn"><button>Все</button></li>
-
-          <li class="filter-list-btn"><button>Веб-сайты</button></li>
-          <li class="filter-list-btn"><button>Приложения</button></li>
-          <li class="filter-list-btn"><button>Дизайн</button></li>
-          <li class="filter-list-btn"><button>Маркетинг</button></li>
+          <li class="filter-list-btn"><button type="button">Все</button></li>
+          <li class="filter-list-btn">
+            <button type="button">Веб-сайты</button>
+          </li>
+          <li class="filter-list-btn">
+            <button type="button">Приложения</button>
+          </li>
+          <li class="filter-list-btn"><button type="button">Дизайн</button></li>
+          <li class="filter-list-btn">
+            <button type="button">Маркетинг</button>
+          </li>
         </ul>
-
-        <ul>
-          <li>
-            <a href=""
+      </section>
+      <section class="main">
+        <ul class="main-list">
+          <li class="main-list-item">
+            <a class="main-list-link link" href=""
               ><img src="./images/portfolio/img.jpg" alt="фото" />
-              <h2>Технокряк</h2>
-              <p>Веб-сайт</p>
-              <p>
+              <h2 class="main-list-title">Технокряк</h2>
+              <p class="main-list-description">Веб-сайт</p>
+              <p class="main-list-description">
                 Технокряк это современная площадка распространения коронавируса.
                 Компании используют эту платформу для цифрового шпионажа и атак
                 на защищённые сервера конкурентов.
               </p></a
             >
           </li>
-          <li>
-            <a href=""
+          <li class="main-list-item">
+            <a class="main-list-link link" href=""
               ><img src="./images/portfolio/img(1).jpg" alt="баскетболисты" />
-              <h2>Постер New Orlean vs Golden Star</h2>
-              <p>Дизайн</p></a
+              <h2 class="main-list-title">Постер New Orlean vs Golden Star</h2>
+              <p class="main-list-description">Дизайн</p></a
             >
           </li>
-          <li>
-            <a href=""
+          <li class="main-list-item">
+            <a class="main-list-link link" href=""
               ><img src="./images/portfolio/img(2).jpg" alt="ресторан" />
-              <h2>Дизайн</h2>
-              <p>Приложение</p></a
+              <h2 class="main-list-title">Дизайн</h2>
+              <p class="main-list-description">Приложение</p></a
             >
           </li>
-          <li>
-            <a href=""
+          <li class="main-list-item">
+            <a class="main-list-link link" href=""
               ><img src="./images/portfolio/img(3).jpg" alt="наушники" />
-              <h2>Проект Prime</h2>
-              <p>Маркетинг</p></a
+              <h2 class="main-list-title">Проект Prime</h2>
+              <p class="main-list-description">Маркетинг</p></a
             >
           </li>
-          <li>
-            <a href=""
+          <li class="main-list-item">
+            <a class="main-list-link link" href=""
               ><img src="./images/portfolio/img(4).jpg" alt="коробки" />
-              <h2>Boxes</h2>
-              <p>Приложение</p></a
+              <h2 class="main-list-title">Boxes</h2>
+              <p class="main-list-description">Приложение</p></a
             >
           </li>
-          <li>
-            <a href=""
+          <li class="main-list-item">
+            <a class="main-list-link link" href=""
               ><img src="./images/portfolio/img(5).jpg" alt="пк" />
-              <h2>Inspiration has no Borders</h2>
-              <p>Веб-сайт</p></a
+              <h2 class="main-list-title">Inspiration has no Borders</h2>
+              <p class="main-list-description">Веб-сайт</p></a
             >
           </li>
-          <li>
-            <a href=""
+          <li class="main-list-item">
+            <a class="main-list-link link" href=""
               ><img src="./images/portfolio/img(6).jpg" alt="журнал" />
-              <h2>Издание Limited Edition</h2>
-              <p>Дизайн</p></a
+              <h2 class="main-list-title">Издание Limited Edition</h2>
+              <p class="main-list-description">Дизайн</p></a
             >
           </li>
-          <li>
-            <a href=""
+          <li class="main-list-item">
+            <a class="main-list-link link" href=""
               ><img src="./images/portfolio//img(7).jpg" alt="лэйба" />
-              <h2>Проект LAB</h2>
-              <p>Маркетинг</p></a
+              <h2 class="main-list-title">Проект LAB</h2>
+              <p class="main-list-description">Маркетинг</p></a
             >
           </li>
-          <li>
-            <a href=""
+          <li class="main-list-item">
+            <a class="main-list-link link" href=""
               ><img src="./images/portfolio//img(8).jpg" alt="ноутбук" />
-              <h2>Growing Business</h2>
-              <p>Приложение</p></a
+              <h2 class="main-list-title">Growing Business</h2>
+              <p class="main-list-description">Приложение</p></a
             >
           </li>
         </ul>
       </section>
     </main>
-
     <!--футер-->
     <footer>
-      <div>
-        <a href="">ВебСтудия</a>
-        <p>г. Киев, пр-т Леси Украинки, 26</p>
-        <a href="">info@example.com</a>
-        <a href="">+38 099 111 11 11</a>
-      </div>
-      <div>
-        <h3>присоединяйтесь</h3>
+      <section class="footer-adress">
+        <a class="footer-logo link" href=""
+          ><span class="footer-logo-web">Web</span>Studio</a
+        >
+        <p class="footer-adress">г. Киев, пр-т Леси Украинки, 26</p>
+        <a class="footer-mail" href="">info@example.com</a>
+        <a class="footer-tel" href="">+38 099 111 11 11</a>
+      </section>
+      <section class="footer-join">
+        <h3 class="footer-join-subtitle">присоединяйтесь</h3>
         <a href="">
           <img src="./images/social-apps/Ellipse11.svg" alt="инстаграм"
         /></a>
@@ -133,15 +159,15 @@
         <a href=""
           ><img src="./images/social-apps/Ellipse(3).svg" alt="линкэдин"
         /></a>
-      </div>
-      <div>
-        <h3>Подпишитесь на рассылку</h3>
+      </section>
+      <section class="footer-form">
+        <h3 class="footer-form-subtitle">Подпишитесь на рассылку</h3>
         <a href="">E-mail</a>
-        <button>
+        <button class="footer-form-btn" type="button">
           Подписаться
           <img src="./images/icon-send/icon-send.svg" alt="icon-send" />
         </button>
-      </div>
+      </section>
     </footer>
   </body>
 </html>
