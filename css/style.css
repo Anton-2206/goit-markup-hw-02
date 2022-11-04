@@ -4,3 +4,75 @@ body{
 .logo{
     color: red;
 }
+a {
+    text-decoration: none;
+}
+.list{
+    list-style: none;
+}
+
+ul{
+    list-style: none;
+}
+.header {
+
+}
+
+.logo {
+
+}
+
+.header-nav {
+
+}
+
+.header-nav-link {
+        color: #212121;
+}
+
+.header-nav-link:hover,
+.header-nav-link:focus {
+    color: #2196F3;
+}
+.header-nav-link:active{
+    color: aquamarine;
+}
+h1,h2,h3,h4{
+    margin: 0;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+.header a{
+font-weight: 500;
+    font-size: 14px;
+    line-height: 1.1428;
+    letter-spacing: 0.02em;
+}
+.header-contact-link {
+
+
+    color: #757575;
+}
+.header-contact-link:hover,
+.header-contact-link:focus {
+    color: var(--color-blue);
+}
+/* ---------hero--------- */
+.hero-btn {
+font-weight: 700;
+    font-size: 16px;
+    line-height: 1.875;
+    
+    letter-spacing: 0.06em;
+
+    color: red;
+    border: none;
+    background: #2196F3;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+        border-radius: 4px;
+}
+:root{
+    --color-blue: #2196F3;
+}
